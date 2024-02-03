@@ -1,0 +1,27 @@
+.h1 {
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.overskrift {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.undertekst {
+    margin-left: 10%;
+    font-weight: 800;
+}
+.arbeid {
+    margin-left: 10%;
+    background-color: lightgray;
+    border: 2pt solid black;
+    border-radius: 5pt;
+    padding: 5pt; 
+    width: auto;
+}
+.knapp:hover {
+    background-color: pink;
+    padding: 2pt;
+    transition: 300ms;
+}
