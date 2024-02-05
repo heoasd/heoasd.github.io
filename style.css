@@ -13,15 +13,31 @@
     font-weight: 800;
 }
 .arbeid {
+    background-color: lightgrey;
+    border: 2pt solid black; 
+    padding: 5pt;
     margin-left: 10%;
-    background-color: lightgray;
-    border: 2pt solid black;
-    border-radius: 5pt;
-    padding: 5pt; 
-    width: auto;
+    text-decoration: none;
+    transition: 300ms;
 }
 .knapp:hover {
     background-color: pink;
-    padding: 2pt;
-    transition: 300ms;
+    padding: 10pt;
+}
+.navbar {
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+}
+button {
+    background-color: white;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #961313;
 }
